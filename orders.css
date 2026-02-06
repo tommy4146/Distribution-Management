@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8fcff; /* very light cyan-tinted background */
+    margin: 0;
+    padding: 0;
+    color: #033c3c; /* deep teal text */
+}
+
+.page-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 80, 80, 0.15);
+}
+
+/* Navbar */
+.navbar {
+    background-color: darkcyan;
+    padding: 15px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #b2ffff; /* light aqua highlight */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ccecec;
+    text-align: center;
+}
+
+table th {
+    background-color: darkcyan;
+    color: #ffffff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2ffff; /* subtle cyan tint */
+}
+
+table tr:hover {
+    background-color: #dff9f9;
+}
+
+/* Buttons */
+button {
+    background-color: darkcyan;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #007a7a;
+}
+
+a button {
+    text-decoration: none;
+}
+
+/* Headings */
+h3 {
+    color: darkcyan;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    margin-top: 20px;
+}

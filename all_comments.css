@@ -1,0 +1,131 @@
+body {
+    background-color: #ffffff;   /* White page background */
+    color: #033c3c;              /* Deep teal text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- PAGE CONTAINER --- */
+.page-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: darkcyan;  /* Darkcyan container */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 139, 139, 0.5);
+    color: #ffffff;
+}
+
+/* --- HEADERS --- */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+/* --- FILTER FORM --- */
+.filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.filter-form label {
+    margin-right: 5px;
+    color: #ffffff;
+}
+
+.filter-form input[type="text"],
+.filter-form input[type="date"] {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #b2ffff;  /* Light aqua */
+    background-color: #007a7a;  /* Teal input */
+    color: #ffffff;
+}
+
+.filter-form .btn {
+    padding: 8px 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #008b8b;  /* Teal button */
+    color: #fff;
+    transition: background-color 0.25s ease;
+}
+
+.filter-form .btn:hover {
+    background-color: #006d6d; /* Darker teal */
+}
+
+.reset-btn {
+    background-color: #0b4f4f;
+}
+
+.reset-btn:hover {
+    background-color: #083d3d;
+}
+
+/* --- TABLE CONTAINER --- */
+.table-container {
+    background-color: darkcyan;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 139, 139, 0.5);
+    overflow-x: auto;
+}
+
+/* --- TABLE STYLING --- */
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #006d6d;  /* Dark teal */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.table-container tr:nth-child(even) {
+    background-color: #008686;  /* Mid teal */
+}
+
+.table-container tr:nth-child(odd) {
+    background-color: #009f9f;  /* Lighter teal */
+}
+
+.table-container tr:hover {
+    background-color: #007a7a; /* Hover highlight */
+    transition: background-color 0.2s;
+}
+
+.table-container td {
+    border-bottom: 1px solid #8eeeee; /* Aqua divider */
+}
+
+/* --- BUTTONS --- */
+.btn {
+    background-color: #008b8b;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #006d6d;
+    color: #fff;
+}

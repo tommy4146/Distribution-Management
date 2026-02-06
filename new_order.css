@@ -1,0 +1,145 @@
+body {
+    background-color: #f0f8f8; /* very light cyan background */
+    color: #033c3c; /* deep teal text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+    background-color: darkcyan;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #b2ffff; /* highlight color */
+}
+
+/* --- PAGE CONTAINER --- */
+.page-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #e6ffff; /* soft cyan panel */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 139, 139, 0.3);
+}
+
+/* --- HEADERS --- */
+h2, h3 {
+    text-align: center;
+    color: darkcyan;
+    margin-bottom: 25px;
+}
+
+/* --- FORM STYLING --- */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+    color: #033c3c;
+}
+
+form select,
+form input[type="text"],
+form input[type="date"],
+form input[type="number"] {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #b2ffff;
+    background-color: #dffefe; /* soft teal inputs */
+    color: #033c3c;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* --- FORM BUTTONS --- */
+form input[type="submit"],
+form a button,
+.btn {
+    background-color: darkcyan;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover,
+form a button:hover,
+.btn:hover {
+    background-color: #007a7a;
+}
+
+/* --- TABLE STYLING --- */
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #66e2e2;
+}
+
+table th {
+    background-color: #c8fafa; /* very light cyan header */
+    color: #033c3c;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #d4f7f7; /* alternating row color */
+}
+
+table tr:hover {
+    background-color: #b2f0f0;
+}
+
+/* --- LINKS & BUTTONS --- */
+a {
+    text-decoration: none;
+}
+
+a button {
+    margin-top: 20px;
+}
