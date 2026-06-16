@@ -1,0 +1,150 @@
+/* --- GLOBAL --- */
+body {
+    background-color: #ffffff;
+    color: #033c3c; /* deep teal text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- PAGE CONTAINER --- */
+.page-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: darkcyan;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 139, 139, 0.5); /* soft cyan glow */
+    color: #ffffff;
+}
+
+/* --- HEADERS --- */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+    background-color: darkcyan;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #b2ffff; /* aqua highlight */
+}
+
+/* --- BUTTONS --- */
+.btn {
+    background-color: #008b8b; /* teal button */
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #006d6d; /* darker teal */
+}
+
+.delete-btn {
+    background-color: #0b4f4f; /* deep teal */
+}
+
+.delete-btn:hover {
+    background-color: #083d3d;
+}
+
+/* --- TABLE (STANDARD PAGE TABLE) --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #8eeeee; /* soft aqua */
+    text-align: left;
+}
+
+table th {
+    background-color: #006d6d; /* dark teal */
+    color: #ffffff;
+}
+
+table tr:hover {
+    background-color: #008686;
+}
+
+/* --- TABLE CONTAINER (ADVANCED TABLE SECTION) --- */
+.table-container {
+    background-color: darkcyan;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 139, 139, 0.5);
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+    padding: 12px 15px;
+}
+
+.table-container th {
+    background-color: #006d6d;
+    color: white;
+    font-weight: bold;
+}
+
+/* Alternating row colors */
+.table-container tr:nth-child(even) {
+    background-color: #009f9f;
+}
+
+.table-container tr:nth-child(odd) {
+    background-color: #008b8b;
+}
+
+/* Hover */
+.table-container tr:hover {
+    background-color: #007a7a;
+    transition: background-color 0.2s;
+}
+
+.table-container td {
+    border-bottom: 1px solid #8eeeee;
+}

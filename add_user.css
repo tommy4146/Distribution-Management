@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #033c3c; /* deep teal text */
+    margin: 0;
+    padding: 0;
+}
+
+/* --- PAGE CONTAINER --- */
+.page-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #e6ffff; /* soft cyan panel */
+    border-radius: 10px;
+    box-shadow: 0 0 12px darkcyan;
+    color: #033c3c;
+}
+
+/* --- HEADERS --- */
+.page-container h2,
+.page-container h3,
+.page-container h4 {
+    color: darkcyan;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* --- FORM INPUTS --- */
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form input[type="email"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #dffefe; /* light teal input */
+    color: #033c3c;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+/* --- FORM SUBMIT BUTTON & GENERAL BUTTONS --- */
+form input[type="submit"],
+.btn {
+    background-color: darkcyan;
+    color: #ffffff;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+.btn:hover {
+    background-color: #007a7a;
+}
+
+/* --- GENERIC BUTTON LINKS --- */
+.button-link,
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px 5px 5px 0;
+    background-color: darkcyan;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover,
+button:hover {
+    background-color: #007a7a;
+}
+
+/* --- TABLES --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border-bottom: 1px solid darkcyan;
+    text-align: left;
+}
+
+table th {
+    background-color: #c8fafa; /* light cyan header */
+    color: #033c3c;
+}
+
+table tr:hover {
+    background-color: #e1ffff;
+}
+
+/* --- DELETE BUTTONS --- */
+.delete-btn {
+    background-color: #0b4f4f;
+    color: #fff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #083d3d;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+    background-color: darkcyan;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #b2ffff;
+}

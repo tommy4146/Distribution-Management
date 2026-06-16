@@ -1,0 +1,5 @@
+connection.php
+generate_invoice.php
+
+*.sql
+!database/schema.sql
